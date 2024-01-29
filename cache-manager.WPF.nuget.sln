@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cache-manager.WPF.nuget", "cache-manager.WPF.nuget.csproj", "{BEE7C700-FF97-4D57-941B-5EC0C30CD274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE7C700-FF97-4D57-941B-5EC0C30CD274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE7C700-FF97-4D57-941B-5EC0C30CD274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE7C700-FF97-4D57-941B-5EC0C30CD274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE7C700-FF97-4D57-941B-5EC0C30CD274}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {470153A2-37B7-498F-BD3B-08CCCBEBDA63}
+	EndGlobalSection
+EndGlobal

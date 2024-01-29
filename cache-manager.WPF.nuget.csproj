@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>cache_manager.WPF.nuget</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>5.0.0.1</AssemblyVersion>
+    <FileVersion>5.0.0.1</FileVersion>
+    <Version>5.0.0.1</Version>
+    <PackageTags>WPF;cache</PackageTags>
+    <Product>Cache.Manager.WPF</Product>
+    <Authors>Aleksander Felyugin</Authors>
+    <PackageId>Cache.Manager.WPF</PackageId>
+    <PackageProjectUrl>http://10.135.130.163/itis/is/creuc/nuget-galery/nuget-library/cache-manager.wpf.nuget</PackageProjectUrl>
+    <RepositoryUrl>http://10.135.130.163/itis/is/creuc/nuget-galery/nuget-library/cache-manager.wpf.nuget</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>5.0.0.1 - Added the "UserFileName" property to AppConfig.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="File.Manager" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
