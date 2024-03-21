@@ -5,6 +5,8 @@ using System.Windows;
 using File.Manager;
 using Microsoft.Extensions.Options;
 
+using static System.Net.Mime.MediaTypeNames;
+
 namespace Cache.Manager.WPF
 {
     public class СacheManager : IСacheManager
@@ -21,11 +23,11 @@ namespace Cache.Manager.WPF
 
         public void PersistData()
         {
-            if (Application.Current.Properties != null)
+            if (System.Windows.Application.Current.Properties != null)
             {
                 string folderPath = Path.Combine(_localAppData, _appConfig.ConfigurationsFolder);
                 string fileName = _appConfig.AppPropertiesFileName;
-                _fileService.Save(folderPath, fileName, Application.Current.Properties);
+                _fileService.Save(folderPath, fileName, System.Windows.Application.Current.Properties);
             }
         }
 
@@ -38,7 +40,7 @@ namespace Cache.Manager.WPF
             {
                 foreach (DictionaryEntry property in properties)
                 {
-                    Application.Current.Properties.Add(property.Key, property.Value);
+                    System.Windows.Application.Current.Properties.Add(property.Key, property.Value);
                 }
             }
         }
